@@ -22,7 +22,6 @@ rosrun pcl_ros pcd_to_pointcloud output_2024-08-23.pcd _frame_id:=laser _interva
 
 `/point_cloud_raw` would be the topic that contains point clouds. Now you can use the following rviz config to view the point cloud.
 
-And
 
 ```
 rosrun rviz rviz -d configs/view_point_cloud.rviz
